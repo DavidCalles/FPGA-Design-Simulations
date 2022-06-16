@@ -1,0 +1,34 @@
+# Compile of D_FLIP_FLOP.vhd was successful.
+# Compile of SimpleCounter.vhd failed with 1 errors.
+# Compile of TestBench.vhd failed with 1 errors.
+# 3 compiles, 2 failed with 2 errors.
+# Compile of D_FLIP_FLOP.vhd was successful.
+# Compile of SimpleCounter.vhd was successful.
+# Compile of TestBench.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of D_FLIP_FLOP.vhd was successful.
+# Compile of SimpleCounter.vhd was successful.
+# Compile of TestBench.vhd failed with 20 errors.
+# 3 compiles, 1 failed with 20 errors.
+# Compile of D_FLIP_FLOP.vhd was successful.
+# Compile of SimpleCounter.vhd was successful.
+# Compile of TestBench.vhd failed with 10 errors.
+# 3 compiles, 1 failed with 10 errors.
+# Compile of D_FLIP_FLOP.vhd was successful.
+# Compile of SimpleCounter.vhd was successful.
+# Compile of TestBench.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 19:33:50 on Jun 16,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(tb)
+# Loading work.simplecounter(behav0)
+# Loading work.d_flip_flop(behav0)
+add wave -position insertpoint sim:/testbench/*
+run -all
+quit -sim
+# End time: 19:36:39 on Jun 16,2022, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 9

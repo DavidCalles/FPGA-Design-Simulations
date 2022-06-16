@@ -1,0 +1,36 @@
+# Compile of D_FLIP_FLOP.v was successful.
+# Compile of SimpleCounter.v was successful.
+# Compile of TestBench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.TestBench
+# vsim -gui work.TestBench 
+# Start time: 17:10:59 on Jun 16,2022
+# Loading work.TestBench
+# Loading work.SimpleCounter
+# Loading work.D_FLIP_FLOP
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'count0'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/count0 File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v Line: 7
+# ** Warning: (vsim-3722) C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v(7): [TFMPC] - Missing connection for port 'outQ'.
+add wave -position insertpoint sim:/TestBench/*
+add wave -position insertpoint sim:/TestBench/count0/*
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 17:14:43 on Jun 16,2022, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 4
+# Compile of D_FLIP_FLOP.v was successful.
+# Compile of SimpleCounter.v was successful.
+# Compile of TestBench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.TestBench
+# vsim -gui work.TestBench 
+# Start time: 17:15:36 on Jun 16,2022
+# Loading work.TestBench
+# Loading work.SimpleCounter
+# Loading work.D_FLIP_FLOP
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'count0'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/count0 File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v Line: 7
+# ** Warning: (vsim-3722) C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v(7): [TFMPC] - Missing connection for port 'outQ'.
+# End time: 18:01:15 on Jun 16,2022, Elapsed time: 0:45:39
+# Errors: 0, Warnings: 4

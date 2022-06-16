@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2
+vD_FLIP_FLOP
+Z1 !s110 1655414126
+!i10b 1
+!s100 z=Hb6WVT>4Q<@:C3gj_eT1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN:VmG1dGR^NPH9=`G1ICB2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1654867667
+8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/D_FLIP_FLOP.v
+FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/D_FLIP_FLOP.v
+!i122 36
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1655414126.000000
+!s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/D_FLIP_FLOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/D_FLIP_FLOP.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@d_@f@l@i@p_@f@l@o@p
+vSimpleCounter
+R1
+!i10b 1
+!s100 TQh01fTh9MKUeEYkT@JL^0
+R2
+I<U_`zbP>g<<4L;7dJY1M[1
+R3
+R0
+w1655413673
+8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/SimpleCounter.v
+FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/SimpleCounter.v
+!i122 37
+L0 1 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/SimpleCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/SimpleCounter.v|
+!i113 1
+R6
+R7
+n@simple@counter
+vTestBench
+R1
+!i10b 1
+!s100 ZTe3okLYaF@81I76>:YeX0
+R2
+IMYWPK]<;gQ:eZD:<@obKJ3
+R3
+R0
+w1655414120
+8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v
+FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v
+!i122 38
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/TestBench.v|
+!i113 1
+R6
+R7
+n@test@bench
