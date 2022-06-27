@@ -21,5 +21,23 @@ end ALU;
 architecture RTL of ALU is
 begin
 
+  process(FSEL) is
+  begin
+
+      case Sel is
+          when "0000" =>
+              FOUT
+          when "01" =>
+              Output2 <= Sig2;
+          when "10" =>
+              Output2 <= Sig3;
+          when "11" =>
+              Output2 <= Sig4;
+          when others => -- 'U', 'X', '-', etc.
+              Output2 <= (others => 'X');
+      end case;
+
+  end process;
+
 
 end architecture;
