@@ -16,6 +16,7 @@ architecture RTL of Shifts is
 begin
 
     process(op, abus, cin) is
+        variable v_aux_overflow : std_logic;
     begin
  
         case op is
@@ -27,31 +28,36 @@ begin
             when "001" => -- Shift left
                 outbus <= abus(14 downto 0) & '0';
                 cout <= abus(15);
-                overflow <= abus(15);
+                overflow <= abus(15) XOR abus(14);
             
             when "010" => -- Shift right
                 outbus <= '0' & abus(15 downto 1);
                 cout <= abus(0);
-                overflow <= '0';
+                overflow <= abus(15) XOR '0';
 
             when "011" => -- Arithmetic shift right
-                outbus <= abus(15) & abus(15 downto 1);
+                if(abus = x"FFFF") then 
+                    outbus <= x"0000";
+                else
+                    outbus <= abus(15) & abus(15 downto 1);
+                end if;
                 cout <= abus(0);
                 overflow <= '0';
 
             when "100" => -- Rotate left through carry
                 outbus <= abus(14 downto 0) & cin;
                 cout <= abus(15);
-                overflow <= abus(15);
+                overflow <= abus(15) XOR abus(14);
 
             when "101" => -- Rotate right through carry
                 outbus <= cin & abus(15 downto 1);
                 cout <= abus(0);
-                overflow <= '0';
+                overflow <= abus(15) XOR cin;
 
             when others =>
                 outbus <= (others => '0');
                 cout <= '0';
+                overflow <= '0';
 
         end case;
  

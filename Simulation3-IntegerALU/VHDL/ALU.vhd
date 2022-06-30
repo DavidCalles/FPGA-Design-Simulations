@@ -1,7 +1,3 @@
-
-library ieee;
-use ieee.std_logic_1164.all;
-
 library IEEE;
 use IEEE.std_logic_1164.ALL;
 use IEEE.numeric_std.ALL;
@@ -48,12 +44,6 @@ architecture RTL of ALU is
     signal foutSignal_Shifts:       std_logic_vector(15 downto 0);
     signal operationSignal_Shifts:  std_logic_vector(2 downto 0); 
 
-    -- Flags signals
-    signal CSignal_Flag:    std_logic;
-    signal ZSignal_Flag:    std_logic;
-    signal SSignal_Flag:    std_logic;
-    signal VSignal_Flag:    std_logic;
-
     ------------------------------ COMPONENTS ---------------------------------
 
     component Adder_uint16
@@ -71,7 +61,7 @@ architecture RTL of ALU is
     component Bitwise_16bit
         port(
             abus    : in std_logic_vector(15 downto 0);
-            bbus    : in std_logic_vector(15 downto 0):
+            bbus    : in std_logic_vector(15 downto 0);
             op      : in std_logic_vector(2 downto 0);
             outbus  : out std_logic_vector(15 downto 0)
         );
@@ -88,20 +78,6 @@ architecture RTL of ALU is
         );
     end component Shifts;
 
-    component Flags
-        port(
-            num             : in std_logic_vector(15 downto 0);
-            carryAdder      : in std_logic;
-            overflowAdder   : in std_logic;
-            carryShift      : in std_logic;
-            overflowShift   : in std_logic;
-            S               : out std_logic;
-            Z               : out std_logic;
-            C               : out std_logic;
-            V               : out std_logic
-        );
-    end component Flags;
-
 begin
 
     ------------------------ COMPONENTS INSTANCES -----------------------------
@@ -111,8 +87,8 @@ begin
             B_u16 => bSignal_Adder, 
             Cin => cinSignal_Adder, 
             Op => operationSignal_Adder, 
-            Sum_u16 => coutSignal_Adder, 
-            Cout => foutSignal_Adder, 
+            Sum_u16 => foutSignal_Adder, 
+            Cout => coutSignal_Adder,
             Overflow => overflowSignal_Adder
         );
 
@@ -133,23 +109,9 @@ begin
             cout => coutSignal_Shifts,
             overflow => overflowSignal_Shifts
         );
-    
-    Flags0 : Flags
-        port map (
-            num => foutSignal,
-            carryAdder => foutSignal_Adder,
-            overflowAdder => overflowSignal_Adder,
-            carryShift => coutSignal_Shifts,
-            overflowShift => overflowSignal_Shifts,
-            S => SSignal_Flag,
-            Z => ZSignal_Flag,
-            C => CSignal_Flag,
-            V => VSignal_Flag
-        );
 
-    
     ---------------------- FUNCTION SELECT DECODING ---------------------------
-    process(FSEL) is
+    process(FSEL, ABUS, BBUS, CIN) is
     begin
         case FSEL is
             when "0000" =>  -- 0: Transfer ABUS
@@ -167,11 +129,11 @@ begin
                 cinSignal_Shifts <= '0';
                 operationSignal_Shifts <= "000";
                 -- Output Selector
-                foutSignal <= ABUS;
+                foutSignal <= std_logic_vector(ABUS);
                 
             when "0001" =>  -- 1: Increment ABUS by 1
                 -- ALU signals
-                aSignal_Adder <= ABUS;
+                aSignal_Adder <= std_logic_vector(ABUS);
                 bSignal_Adder <= (0=>'1', others =>'0');
                 cinSignal_Adder <= '0';
                 operationSignal_Adder <= "01";
@@ -188,7 +150,7 @@ begin
 
             when "0010" =>  -- 2: Decrement ABUS by 1
                 -- ALU signals
-                aSignal_Adder <= ABUS;
+                aSignal_Adder <= std_logic_vector(ABUS);
                 bSignal_Adder <= (0=>'1', others =>'0');
                 cinSignal_Adder <= '0';
                 operationSignal_Adder <= "11";
@@ -205,8 +167,8 @@ begin
 
             when "0011" =>  -- 3: Add ABUS + BBUS + CIN
                 -- ALU signals
-                aSignal_Adder <= ABUS;
-                bSignal_Adder <= BBUS;
+                aSignal_Adder <= std_logic_vector(ABUS);
+                bSignal_Adder <= std_logic_vector(BBUS);
                 cinSignal_Adder <= CIN;
                 operationSignal_Adder <= "01";
                 -- Bitwise signals
@@ -222,8 +184,8 @@ begin
 
             when "0100" =>  -- 4: Subtract ABUS-BBUS-CIN
                 -- ALU signals
-                aSignal_Adder <= ABUS;
-                bSignal_Adder <= BBUS;
+                aSignal_Adder <= std_logic_vector(ABUS);
+                bSignal_Adder <= std_logic_vector(BBUS);
                 cinSignal_Adder <= CIN;
                 operationSignal_Adder <= "11";
                 -- Bitwise signals
@@ -244,8 +206,8 @@ begin
                 cinSignal_Adder <= '0';
                 operationSignal_Adder <= "00";
                 -- Bitwise signals
-                aSignal_Bitwise <= ABUS;
-                bSignal_Bitwise <= BBUS;
+                aSignal_Bitwise <= std_logic_vector(ABUS);
+                bSignal_Bitwise <= std_logic_vector(BBUS);
                 operationSignal_Bitwise <= "001";
                 -- Shift Signals
                 aSignal_Shifts <= (others => '0');
@@ -261,8 +223,8 @@ begin
                 cinSignal_Adder <= '0';
                 operationSignal_Adder <= "00";
                 -- Bitwise signals
-                aSignal_Bitwise <= ABUS;
-                bSignal_Bitwise <= BBUS;
+                aSignal_Bitwise <= std_logic_vector(ABUS);
+                bSignal_Bitwise <= std_logic_vector(BBUS);
                 operationSignal_Bitwise <= "010";
                 -- Shift Signals
                 aSignal_Shifts <= (others => '0');
@@ -278,8 +240,8 @@ begin
                 cinSignal_Adder <= '0';
                 operationSignal_Adder <= "00";
                 -- Bitwise signals
-                aSignal_Bitwise <= ABUS;
-                bSignal_Bitwise <= BBUS;
+                aSignal_Bitwise <= std_logic_vector(ABUS);
+                bSignal_Bitwise <= std_logic_vector(BBUS);
                 operationSignal_Bitwise <= "011";
                 -- Shift Signals
                 aSignal_Shifts <= (others => '0');
@@ -295,7 +257,7 @@ begin
                 cinSignal_Adder <= '0';
                 operationSignal_Adder <= "00";
                 -- Bitwise signals
-                aSignal_Bitwise <= ABUS;
+                aSignal_Bitwise <= std_logic_vector(ABUS);
                 bSignal_Bitwise <= (others => '0');
                 operationSignal_Bitwise <= "100";
                 -- Shift Signals
@@ -316,7 +278,7 @@ begin
                 bSignal_Bitwise <= (others => '0');
                 operationSignal_Bitwise <= "000";
                 -- Shift Signals
-                aSignal_Shifts <= ABUS;
+                aSignal_Shifts <= std_logic_vector(ABUS);
                 cinSignal_Shifts <= '0';
                 operationSignal_Shifts <= "001";
                 -- Output Selector
@@ -333,7 +295,7 @@ begin
                 bSignal_Bitwise <= (others => '0');
                 operationSignal_Bitwise <= "000";
                 -- Shift Signals
-                aSignal_Shifts <= ABUS;
+                aSignal_Shifts <= std_logic_vector(ABUS);
                 cinSignal_Shifts <= '0';
                 operationSignal_Shifts <= "010";
                 -- Output Selector
@@ -350,7 +312,7 @@ begin
                 bSignal_Bitwise <= (others => '0');
                 operationSignal_Bitwise <= "000";
                 -- Shift Signals
-                aSignal_Shifts <= ABUS;
+                aSignal_Shifts <= std_logic_vector(ABUS);
                 cinSignal_Shifts <= '0';
                 operationSignal_Shifts <= "011";
                 -- Output Selector
@@ -367,7 +329,7 @@ begin
                 bSignal_Bitwise <= (others => '0');
                 operationSignal_Bitwise <= "000";
                 -- Shift Signals
-                aSignal_Shifts <= ABUS;
+                aSignal_Shifts <= std_logic_vector(ABUS);
                 cinSignal_Shifts <= CIN;
                 operationSignal_Shifts <= "100";
                 -- Output Selector
@@ -384,7 +346,7 @@ begin
                 bSignal_Bitwise <= (others => '0');
                 operationSignal_Bitwise <= "000";
                 -- Shift Signals
-                aSignal_Shifts <= ABUS;
+                aSignal_Shifts <= std_logic_vector(ABUS);
                 cinSignal_Shifts <= CIN;
                 operationSignal_Shifts <= "101";
                 -- Output Selector
@@ -441,15 +403,37 @@ begin
                 -- Output Selector
                 foutSignal <= (others => 'X');
 
-        end case;
+        end case; -- case FSEL is
 
-    end process;
+    end process; -- process(FSEL, ABUS, BBUS, CIN)
 
-    -- Get signals out
-    FOUT <= foutSignal;
-    C <= CSignal_Flag;
-    Z <= ZSignal_Flag;
-    S <= SSignal_Flag;
-    V <= VSignal_Flag;
+    -- Get OUTPUT signal out
+    with FSEL select
+        FOUT <= 
+            ABUS                        when "0000", 
+            unsigned(foutSignal_Adder)  when "0001" | "0010" | "0011" | "0100",
+            unsigned(foutSignal_Bitwise)when "0101" | "0110" | "0111" | "1000",
+            unsigned(foutSignal_Shifts) when "1001" | "1010" | "1011" | "1100" | "1101",
+            (others => 'X')     when others;
+
+    -- Get Flags out
+    C <= coutSignal_Adder OR coutSignal_Shifts;   
+    V <= overflowSignal_Adder OR overflowSignal_Shifts;
+
+    Z <= '1' when (
+        (FSEL = "0000" and ABUS = x"0000") or 
+        ((FSEL = "0001" or FSEL = "0010" or FSEL = "0011" or FSEL = "0100") and (foutSignal_Adder = x"0000")) or
+        ((FSEL = "0101" or FSEL = "0110" or FSEL = "0111" or FSEL = "1000") and (foutSignal_Bitwise = x"0000")) or
+        ((FSEL = "1001" or FSEL = "1010" or FSEL = "1011" or FSEL = "1100" or FSEL = "1101") and (foutSignal_Shifts = x"0000"))
+        ) else '0';
+        
+
+    with FSEL select
+        S <= 
+            ABUS(15)                when "0000", 
+            foutSignal_Adder(15)    when "0001" | "0010" | "0011" | "0100",
+            foutSignal_Bitwise(15)  when "0101" | "0110" | "0111" | "1000",
+            foutSignal_Shifts(15)   when "1001" | "1010" | "1011" | "1100" | "1101",
+            '0'                     when others;    
 
 end architecture;

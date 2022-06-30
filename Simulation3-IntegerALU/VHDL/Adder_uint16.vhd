@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.ALL;
+use IEEE.numeric_std.ALL;
 
 entity Adder_uint16 is
   port(
@@ -16,7 +17,7 @@ end Adder_uint16;
 architecture RTL of Adder_uint16 is
 
     signal sumSignal        : std_logic_vector(15 downto 0);
-    signal coutSignal       : std_logic_vector(15 downto 1);
+    signal coutSignal       : std_logic_vector(15 downto 0);
     signal aSignal          : std_logic_vector(15 downto 0);
     signal bSignal          : std_logic_vector(15 downto 0);
     signal overflowSignal   : std_logic;
@@ -28,7 +29,7 @@ architecture RTL of Adder_uint16 is
             b       : in std_logic;
             cin     : in std_logic;
             sum     : out std_logic;
-            cout    : out std_logic; 
+            cout    : out std_logic
         );
     end component FullAdder;
 
@@ -68,42 +69,44 @@ begin
     );
 
     process(A_u16, B_u16, Cin, Op) is
+        variable v_aux_Cin : unsigned(0 downto 0);
     begin
- 
+        -- Used to create a "negative carry"
+        v_aux_Cin(0) := Cin;
+
         case Op is
             when "00" =>
                 aSignal <= (others => '0');
                 bSignal <= (others => '0');
-                Sum_u16 <= (others => '0');
-                Cout <= '0';
-                Overflow <= '0';
                 cinSignal <= '0';
 
             when "01" =>
                 aSignal <= A_u16;
                 bSignal <= B_u16;
-                Sum_u16 <= sumSignal;
-                Cout <= coutSignal(15);
-                Overflow <= coutSignal(15);
                 cinSignal <= Cin;
 
-            when "11" => -- WIP (CIN HAS TO BE NEGATIVE)
+            when "11" => -- THERE HAS TO BE ANOTHER WAY!
                 aSignal <= A_u16;
-                bSignal <= std_logic_vector(-signed(resize(unsigned(B_u16)), bSignal'length));
-                Sum_u16 <= sumSignal;
-                Cout <= coutSignal(15);
-                Overflow <= coutSignal(15);
-                cinSignal <= Cin; -- WILL BE WRONG
+                bSignal <= std_logic_vector(-signed(resize(unsigned(B_u16), bSignal'length))
+                                            -signed(resize(v_aux_Cin, bSignal'length)));
+                cinSignal <= '0'; 
 
             when others =>
                 aSignal <= (others => '0');
                 bSignal <= (others => '0');
-                Sum_u16 <= (others => '0');
-                Cout <= '0';
-                Overflow <= '0';
                 cinSignal <= '0';
         end case;
- 
     end process;
+
+    -- Get outputs out
+    Sum_u16 <= sumSignal;
+    -- WHEN SUBTRACTING... WHEN IS THIS SUPPOSED TO BE ON
+    Cout <= coutSignal(15)          when (Op = "01") else
+            (not coutSignal(15))    when (Op = "11") else
+            '0';
+    Overflow <= '1' when ( 
+        (A_u16(15) = '1' and bSignal(15) = '1' and sumSignal(15) = '0') or
+        (A_u16(15) = '0' and bSignal(15) = '0' and sumSignal(15) = '1')
+        ) else '0';
 
 end architecture;

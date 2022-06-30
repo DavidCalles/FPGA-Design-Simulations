@@ -1,0 +1,390 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/LAB2/VHDL
+Eadder_uint16
+Z0 w1656632097
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 353
+Z4 dC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ModelSimVHDL
+Z5 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Adder_uint16.vhd
+Z6 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Adder_uint16.vhd
+l0
+L5 1
+VS@bc2D]dHLh2c=KXUW@]K2
+!s100 zdPlBJ@G2hASnT_HRYL782
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1656632136
+!i10b 1
+Z9 !s108 1656632136.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Adder_uint16.vhd|
+Z11 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Adder_uint16.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 12 adder_uint16 0 22 S@bc2D]dHLh2c=KXUW@]K2
+!i122 353
+l36
+L17 96
+VMZN>DM43b9W1biX^m;dUg3
+!s100 97>jJi:C3d8fX:Q:8_8V62
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z14 w1656630391
+R1
+R2
+R3
+!i122 354
+R4
+Z15 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU.vhd
+Z16 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU.vhd
+l0
+L5 1
+VH:_lCjee2CQ@MCd2oz]c<2
+!s100 <VEXOGIzW37:JhHa8DE_m2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU.vhd|
+Z18 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 H:_lCjee2CQ@MCd2oz]c<2
+!i122 354
+l81
+L17 423
+V:An`lf21^djj>AfL;h11@1
+!s100 Aa^ji^D:0ZP?gB^miRh8z3
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ealu_tb
+Z19 w1656622331
+R1
+R2
+R3
+!i122 355
+R4
+Z20 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU_Tb.vhd
+Z21 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU_Tb.vhd
+l0
+L5 1
+VCSVQPGHPAn9Y?aI>IJKZ:1
+!s100 <YO2J@oMa5B>@N9WbVWj[0
+R7
+32
+Z22 !s110 1656632137
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU_Tb.vhd|
+Z24 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ALU_Tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+DEx4 work 6 alu_tb 0 22 CSVQPGHPAn9Y?aI>IJKZ:1
+!i122 355
+l33
+L9 186
+V2gc@RBcVjfX[@<BXBDP7C3
+!s100 [klCJ?Y=E_YJ_aBMDHW5E0
+R7
+32
+R22
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Ebitwise_16bit
+Z25 w1656617348
+R2
+R3
+!i122 356
+R4
+Z26 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_16bit.vhd
+Z27 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_16bit.vhd
+l0
+L4 1
+VGiVf_b5gT`49lXfM2j9<32
+!s100 lBR2KJ8M;`6?T6YO@D]Ik2
+R7
+32
+R22
+!i10b 1
+Z28 !s108 1656632137.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_16bit.vhd|
+Z30 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_16bit.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 13 bitwise_16bit 0 22 GiVf_b5gT`49lXfM2j9<32
+!i122 356
+l14
+L13 12
+VcI1:?WI^6T;X:ee4^_Q^z1
+!s100 hNoz^4kHKbcAD`=E;dF_l1
+R7
+32
+R22
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Ebitwise_tb
+Z31 w1656617786
+R1
+R2
+R3
+!i122 360
+R4
+Z32 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_Tb.vhd
+Z33 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_Tb.vhd
+l0
+L5 1
+V4VVf2UiPd<bQm1>5Le?C11
+!s100 z1mEg^]acdl_oc7o71Kn]3
+R7
+32
+R22
+!i10b 1
+R28
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_Tb.vhd|
+Z35 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_Tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+Z36 DEx4 work 10 bitwise_tb 0 22 4VVf2UiPd<bQm1>5Le?C11
+!i122 360
+l25
+Z37 L9 94
+Z38 Vc>5HSo7`_GiCe7V9EP<9=0
+Z39 !s100 U85TYN2DE[khj5aFR`1LD2
+R7
+32
+R22
+!i10b 1
+R28
+R34
+R35
+!i113 1
+R12
+R13
+Eflags
+Z40 w1656368965
+R2
+R3
+!i122 284
+R4
+Z41 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Flags.vhd
+Z42 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Flags.vhd
+l0
+L4 1
+VLlGT6LOV2mdhkFZF8n_`z1
+!s100 =dj7WmLObWe5PkSSC3MJ52
+R7
+32
+Z43 !s110 1656625318
+!i10b 1
+Z44 !s108 1656625317.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Flags.vhd|
+Z46 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Flags.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 5 flags 0 22 LlGT6LOV2mdhkFZF8n_`z1
+!i122 284
+l19
+L18 9
+VMR>P`ObSVb@^ETPoE3?^P0
+!s100 `J[Ml]80am7533E7`zK]Y0
+R7
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R12
+R13
+Efulladder
+Z47 w1656524337
+R2
+R3
+!i122 357
+R4
+Z48 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/FullAdder.vhd
+Z49 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/FullAdder.vhd
+l0
+L4 1
+VTET^^_R>72j<3iBWOP60L0
+!s100 R2`kkzXzd=U^D3<TTj`991
+R7
+32
+R22
+!i10b 1
+R28
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/FullAdder.vhd|
+Z51 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/FullAdder.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 9 fulladder 0 22 TET^^_R>72j<3iBWOP60L0
+!i122 357
+l15
+L14 7
+V_32de^A4`XU`^N?@?OTjf0
+!s100 mUA=ha3O9dOnWhEi?;zDQ1
+R7
+32
+R22
+!i10b 1
+R28
+R50
+R51
+!i113 1
+R12
+R13
+Eshifts
+Z52 w1656630816
+R2
+R3
+!i122 358
+R4
+Z53 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd
+Z54 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd
+l0
+L4 1
+VNCW9Z2BW=[IiRBXQ4LR3L0
+!s100 FC4Q2D5[Mk_9KBHBmYY^Q1
+R7
+32
+R22
+!i10b 1
+R28
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd|
+Z56 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 6 shifts 0 22 NCW9Z2BW=[IiRBXQ4LR3L0
+!i122 358
+l16
+L15 52
+VUW[Bf9@VnY63FR6oojiIV1
+!s100 ze6DOF5DL[TW1S8=B4d9G2
+R7
+32
+R22
+!i10b 1
+R28
+R55
+R56
+!i113 1
+R12
+R13
+Etest_alu
+Z57 w1656514898
+R1
+R2
+R3
+!i122 359
+R4
+Z58 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/test_alu.vhd
+Z59 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/test_alu.vhd
+l0
+L10 1
+VJ^4]Ud4X31dfhWjbEG@3F1
+!s100 WC4OJ]S]9EZY8VCm4ffLY3
+R7
+32
+R22
+!i10b 1
+R28
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/test_alu.vhd|
+Z61 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/test_alu.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 8 test_alu 0 22 J^4]Ud4X31dfhWjbEG@3F1
+!i122 359
+l59
+L13 233
+V=;`VT_0c>IWmi1Fk7`If@2
+!s100 lHWiL]jiGjlgeZz8`L^IB3
+R7
+32
+R22
+!i10b 1
+R28
+R60
+R61
+!i113 1
+R12
+R13
