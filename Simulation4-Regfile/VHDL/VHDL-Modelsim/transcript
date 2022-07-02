@@ -1,0 +1,373 @@
+# Compile of common.vhd failed with 1 errors.
+# Compile of mux.vhd failed with 3 errors.
+# Compile of regfile.vhd failed with 3 errors.
+# Compile of regfile_tb.vhd failed with 3 errors.
+# Compile of registerArray.vhd failed with 3 errors.
+# Compile of test_regfile.vhd was successful.
+# 6 compiles, 5 failed with 13 errors.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd failed with 2 errors.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.regfile_tb
+# vsim -gui work.regfile_tb 
+# Start time: 13:36:16 on Jul 02,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.regfile_tb(tb)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+add wave -position insertpoint sim:/regfile_tb/*
+run -all
+add wave -position insertpoint  \
+sim:/regfile_tb/REGFILE1/REG_ARRAY0/regArray
+# Break key hit
+# Simulation stop requested.
+restart -f
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break key hit
+# Break in Process clk_process at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile_tb.vhd line 43
+quit -sim
+# End time: 13:40:48 on Jul 02,2022, Elapsed time: 0:04:32
+# Errors: 0, Warnings: 1
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.test_regfile
+# vsim -gui work.test_regfile 
+# Start time: 13:41:01 on Jul 02,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_regfile(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+add wave -position insertpoint sim:/test_regfile/*
+add wave -position insertpoint  \
+sim:/test_regfile/REGFILE1/REG_ARRAY0/regArray
+run -all
+# ** Note: Mismatch on A bus, expected 1 got 0
+#    Time: 59 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 59 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(1,0,0,0,10,1,0);
+#    Time: 59 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 59 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 2 got 0
+#    Time: 61 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 61 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(2,0,0,0,10,2,0);
+#    Time: 61 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 61 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 3 got 0
+#    Time: 63 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 63 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(3,0,0,0,10,3,0);
+#    Time: 63 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 63 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 4 got 0
+#    Time: 65 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 65 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(4,0,0,0,10,4,0);
+#    Time: 65 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 65 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 5 got 0
+#    Time: 67 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 67 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(5,0,0,0,10,5,0);
+#    Time: 67 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 67 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 6 got 0
+#    Time: 69 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 69 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(6,0,0,0,10,6,0);
+#    Time: 69 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 69 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 7 got 0
+#    Time: 71 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 71 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(7,0,0,0,10,7,0);
+#    Time: 71 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 71 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 1 got 0
+#    Time: 79 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 79 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,1,0,0,10,0,1);
+#    Time: 79 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 79 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 2 got 0
+#    Time: 81 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 81 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,2,0,0,10,0,2);
+#    Time: 81 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 81 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 3 got 0
+#    Time: 83 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 83 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,3,0,0,10,0,3);
+#    Time: 83 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 83 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 4 got 0
+#    Time: 85 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 85 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,4,0,0,10,0,4);
+#    Time: 85 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 85 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 5 got 0
+#    Time: 87 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 87 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,5,0,0,10,0,5);
+#    Time: 87 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 87 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 6 got 0
+#    Time: 89 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 89 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,6,0,0,10,0,6);
+#    Time: 89 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 89 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 7 got 0
+#    Time: 91 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 91 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(0,7,0,0,10,0,7);
+#    Time: 91 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 91 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 8 got 0
+#    Time: 97 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 8 got 0
+#    Time: 97 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 97 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(1,1,1,0,8,8,8);
+#    Time: 97 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 97 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 15 got 0
+#    Time: 99 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 15 got 0
+#    Time: 99 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 99 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(1,1,1,0,15,15,15);
+#    Time: 99 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 99 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 9 got 0
+#    Time: 101 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 9 got 0
+#    Time: 101 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 101 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(2,2,2,0,9,9,9);
+#    Time: 101 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 101 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 16 got 0
+#    Time: 103 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 16 got 0
+#    Time: 103 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 103 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(2,2,2,0,16,16,16);
+#    Time: 103 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 103 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 10 got 0
+#    Time: 105 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 10 got 0
+#    Time: 105 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 105 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(3,3,3,0,10,10,10);
+#    Time: 105 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 105 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 17 got 0
+#    Time: 107 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 17 got 0
+#    Time: 107 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 107 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(3,3,3,0,17,17,17);
+#    Time: 107 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 107 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 11 got 0
+#    Time: 109 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 11 got 0
+#    Time: 109 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 109 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(4,4,4,0,11,11,11);
+#    Time: 109 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 109 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 18 got 0
+#    Time: 111 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 18 got 0
+#    Time: 111 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 111 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(4,4,4,0,18,18,18);
+#    Time: 111 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 111 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 12 got 0
+#    Time: 113 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 12 got 0
+#    Time: 113 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 113 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(5,5,5,0,12,12,12);
+#    Time: 113 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 113 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 19 got 0
+#    Time: 115 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 19 got 0
+#    Time: 115 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 115 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(5,5,5,0,19,19,19);
+#    Time: 115 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 115 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 13 got 0
+#    Time: 117 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 13 got 0
+#    Time: 117 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 117 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(6,6,6,0,13,13,13);
+#    Time: 117 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 117 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 20 got 0
+#    Time: 119 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 20 got 0
+#    Time: 119 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 119 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(6,6,6,0,20,20,20);
+#    Time: 119 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 119 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 14 got 0
+#    Time: 121 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 14 got 0
+#    Time: 121 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 121 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(7,7,7,0,14,14,14);
+#    Time: 121 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 121 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on A bus, expected 21 got 0
+#    Time: 123 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Mismatch on B bus, expected 21 got 0
+#    Time: 123 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Failed test case was:
+#    Time: 123 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: microop(7,7,7,0,21,21,21);
+#    Time: 123 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: 
+#    Time: 123 ns  Iteration: 7  Instance: /test_regfile
+# ** Note: Number of passed Test cases:38 out of 66 test cases
+#    Time: 167 ns  Iteration: 1  Instance: /test_regfile
+# ** Note: FAIL: 28 Test cases failed
+#    Time: 167 ns  Iteration: 1  Instance: /test_regfile
+# ** Note: Your mark will be: 76
+#    Time: 167 ns  Iteration: 1  Instance: /test_regfile
+# ** Failure: end of Simulation
+#    Time: 167 ns  Iteration: 1  Process: /test_regfile/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd line 233
+quit -sim
+# End time: 13:44:36 on Jul 02,2022, Elapsed time: 0:03:35
+# Errors: 1, Warnings: 3
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.test_regfile
+# vsim -gui work.test_regfile 
+# Start time: 13:45:18 on Jul 02,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_regfile(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+add wave -position insertpoint  \
+sim:/test_regfile/REGFILE1/REG_ARRAY0/regArray
+add wave -position insertpoint sim:/test_regfile/*
+run -all
+# ** Note: Number of passed Test cases:66 out of 66 test cases
+#    Time: 167 ns  Iteration: 1  Instance: /test_regfile
+# ** Note: PASS: all test cases passed
+#    Time: 167 ns  Iteration: 1  Instance: /test_regfile
+# ** Note: Your mark will be: 80
+#    Time: 167 ns  Iteration: 1  Instance: /test_regfile
+# ** Failure: end of Simulation
+#    Time: 167 ns  Iteration: 1  Process: /test_regfile/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd line 233
+# End time: 13:48:04 on Jul 02,2022, Elapsed time: 0:02:46
+# Errors: 1, Warnings: 2

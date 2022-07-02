@@ -1,0 +1,275 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ModelSimVHDL
+Pcommon
+Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+Z3 w1656783267
+Z4 dC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/VHDL-Modelsim
+Z5 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/common.vhd
+Z6 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/common.vhd
+l0
+L5 1
+VlT<<;?NP@VK]QCoZGVV8h3
+!s100 J38jB^M9`9G^<BBfN=[=D3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1656783910
+!i10b 1
+Z9 !s108 1656783910.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/common.vhd|
+Z11 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/common.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Bbody
+Z14 DPx4 work 6 common 0 22 lT<<;?NP@VK]QCoZGVV8h3
+R0
+R1
+R2
+!i122 19
+l0
+Z15 L11 1
+VI6NgMZIa0=9;KRGf9[BdX1
+!s100 0MBGU?X6L3d^CEEoF:fUD3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emux
+Z16 w1656783356
+R14
+R0
+R1
+R2
+!i122 20
+R4
+Z17 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/mux.vhd
+Z18 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/mux.vhd
+l0
+R15
+V8@JQzliP_7><fi?7E;Q[=3
+!s100 HWOdo9<>;[[hj9nd>Qm`[1
+R7
+32
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/mux.vhd|
+Z20 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/mux.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R0
+R1
+R2
+DEx4 work 3 mux 0 22 8@JQzliP_7><fi?7E;Q[=3
+!i122 20
+l21
+L20 9
+VhThP3f_2D=@5Y;P@KCUmN3
+!s100 cRK>^59gQ@FLV7?A3EO9g2
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Eregfile
+Z21 w1656783300
+R14
+R0
+R1
+R2
+!i122 21
+R4
+Z22 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile.vhd
+Z23 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile.vhd
+l0
+R15
+V`E=>:Gg88j<[R=:jWfPzb2
+!s100 39;48K03=L5^j9zBA4cCN2
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile.vhd|
+Z25 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R0
+R1
+R2
+DEx4 work 7 regfile 0 22 `E=>:Gg88j<[R=:jWfPzb2
+!i122 21
+l48
+L21 60
+VBP[6X^El>9JNSzmC>R7SD0
+!s100 dIleN_ac9`Ql:PJHmN62^0
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Eregfile_tb
+Z26 w1656783319
+R0
+R1
+R2
+!i122 22
+R4
+Z27 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile_tb.vhd
+Z28 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile_tb.vhd
+l0
+L5 1
+V@ebC8V^28G9X3BBg7NB]z3
+!s100 6R2XoQLbM>:R[SKHR6eCW2
+R7
+32
+Z29 !s110 1656783911
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile_tb.vhd|
+Z31 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/regfile_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R0
+R1
+R2
+DEx4 work 10 regfile_tb 0 22 @ebC8V^28G9X3BBg7NB]z3
+!i122 22
+l27
+L9 85
+V[hEQhC66B9LAAHmP_j4W80
+!s100 MdB;n@a@0jd7`6GG:P_iL0
+R7
+32
+R29
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Eregister_array
+Z32 w1656783893
+R14
+R0
+R1
+R2
+!i122 23
+R4
+Z33 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd
+Z34 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd
+l0
+R15
+VHMDU_;^EaW?EQZRmA8>VG3
+!s100 ]zCzVC1WN=N`;e]m9?NMl0
+R7
+32
+R29
+!i10b 1
+Z35 !s108 1656783911.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd|
+Z37 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R0
+R1
+R2
+DEx4 work 14 register_array 0 22 HMDU_;^EaW?EQZRmA8>VG3
+!i122 23
+l26
+L21 28
+VF1ZCK55REW71iGBJSNPFN1
+!s100 VUkdf4a_DU<FL3Ceec`V[1
+R7
+32
+R29
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Etest_regfile
+Z38 w1656713295
+R0
+R1
+R2
+!i122 24
+R4
+Z39 8C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd
+Z40 FC:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd
+l0
+L9 1
+VUaVT>i:kZ<LPXI?B6Y8<z2
+!s100 SX1<F3cME^]nU;QPc@`EO2
+R7
+32
+R29
+!i10b 1
+R35
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd|
+Z42 !s107 C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/test_regfile.vhd|
+!i113 1
+R12
+R13
+Artl
+R0
+R1
+R2
+Z43 DEx4 work 12 test_regfile 0 22 UaVT>i:kZ<LPXI?B6Y8<z2
+!i122 24
+l37
+Z44 L12 224
+Z45 VO;=eKZ5VE[3MaSUoA5DnB3
+Z46 !s100 9_nW6<5R1=D42Uz6i5i@80
+R7
+32
+R29
+!i10b 1
+R35
+R41
+R42
+!i113 1
+R12
+R13
