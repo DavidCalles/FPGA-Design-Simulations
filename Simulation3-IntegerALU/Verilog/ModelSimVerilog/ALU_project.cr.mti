@@ -1,0 +1,43 @@
+{C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/Adder.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/test_alu.v} {1 {vlog -work work -stats=none {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/test_alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_alu
+
+Top level modules:
+	test_alu
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/ALU.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/Shift.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Shift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift
+
+Top level modules:
+	Shift
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/Bitwise.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Bitwise.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Bitwise
+
+Top level modules:
+	Bitwise
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/FullAdder.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\FullAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+
+} {} {}}

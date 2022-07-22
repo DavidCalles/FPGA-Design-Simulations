@@ -1,0 +1,29 @@
+{C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile.v} {1 {vlog -work work -stats=none {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REGFILE
+
+Top level modules:
+	REGFILE
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/mux.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/registerArray.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\registerArray.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REGISTER_ARRAY
+
+Top level modules:
+	REGISTER_ARRAY
+
+} {} {}} {C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/test_regfile.v} {1 {vlog -work work -stats=none {C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\test_regfile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_regs
+
+Top level modules:
+	test_regs
+
+} {} {}}

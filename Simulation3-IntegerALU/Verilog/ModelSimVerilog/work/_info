@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ModelSimVHDL
+vAdder
+Z0 !s110 1658450225
+!i10b 1
+!s100 SWD8Hh9WW_4>C=^M;c[km3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUdC8=Q943:@KDMlPRhU4@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog
+w1658450212
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Adder.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Adder.v
+!i122 271
+L0 1 71
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1658450225.000000
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 _gof@eeHV5<Ohjj6V=lVI3
+R1
+IZCAZf6Z^EZWbSX6jG?F=>0
+R2
+R3
+w1658446281
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\ALU.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\ALU.v
+!i122 270
+L0 1 403
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vBitwise
+Z8 !s110 1658450226
+!i10b 1
+!s100 OT:?6cGdVBmB3:gc;[A6I0
+R1
+I_@1e06lY^SdJ[HNY]68g92
+R2
+R3
+w1657902112
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Bitwise.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Bitwise.v
+!i122 272
+L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Bitwise.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Bitwise.v|
+!i113 1
+R6
+R7
+n@bitwise
+vFullAdder
+R8
+!i10b 1
+!s100 ljEid`[MR@Kgag?A:Oz1`3
+R1
+I5T3i1NW^8=;j0cILBSK:W3
+R2
+R3
+w1658434552
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\FullAdder.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\FullAdder.v
+!i122 274
+L0 1 9
+R4
+r1
+!s85 0
+31
+Z9 !s108 1658450226.000000
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\FullAdder.v|
+!i113 1
+R6
+R7
+n@full@adder
+vShift
+R8
+!i10b 1
+!s100 ]bQSg2g1;di:;@RTG7]6`1
+R1
+I]Fn3e^>KL;PGzVViOb_^l1
+R2
+R3
+w1658446699
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Shift.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Shift.v
+!i122 273
+L0 1 60
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation3-IntegerALU\Verilog\ModelSimVerilog\Shift.v|
+!i113 1
+R6
+R7
+n@shift
+vtest_alu
+R8
+!i10b 1
+!s100 `FJ40hlHLbLHT5Pk;J?^L3
+R1
+IhP5R98e[N>2V0YcmjLgFO2
+R2
+R3
+w1657832621
+8C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/test_alu.v
+FC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/test_alu.v
+!i122 275
+L0 2 204
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/test_alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/Verilog/ModelSimVerilog/test_alu.v|
+!i113 1
+R6
+R7

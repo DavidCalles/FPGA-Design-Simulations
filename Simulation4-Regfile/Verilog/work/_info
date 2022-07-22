@@ -1,0 +1,153 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/ModelSimVHDL
+vMUX
+Z0 !s110 1657893891
+!i10b 1
+!s100 e;m1N3[l:B=j=PJ[AAWW82
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISk::BWGK70Mo_1iTFSK852
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog
+w1657891846
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\mux.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\mux.v
+!i122 104
+L0 4 22
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1657893891.000000
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\mux.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@m@u@x
+vRegFile
+!s110 1657832677
+!i10b 1
+!s100 Qaod@_AJfg4NcQSQi]45S3
+R1
+IIngN8bF?>YMPPXOCFW@@g1
+R2
+R3
+w1657431517
+Z8 8C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile.v
+Z9 FC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile.v
+!i122 18
+Z10 L0 4 14
+R4
+r1
+!s85 0
+31
+!s108 1657832677.000000
+Z11 !s107 C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile.v|
+!i113 1
+R6
+R7
+n@reg@file
+vREGFILE
+R0
+!i10b 1
+!s100 5bNA_?6<fZ11_Z5H2BbLC1
+R1
+I`64ZPMW7<?nMzz:PVfkK23
+R2
+R3
+w1657854974
+R8
+R9
+!i122 105
+R10
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@r@e@g@f@i@l@e
+vregfile_tb
+!s110 1657832678
+!i10b 1
+!s100 Z^17JgeZk[BWlCe`HP3IF2
+R1
+I:g514_CMDYiUWQoF_^::O0
+R2
+R3
+w1657491340
+8C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile_tb.v
+FC:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile_tb.v
+!i122 20
+L0 3 84
+R4
+r1
+!s85 0
+31
+!s108 1657832678.000000
+!s107 C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation4-Regfile/Verilog/regfile_tb.v|
+!i113 1
+R6
+R7
+vREGISTER_ARRAY
+Z13 !s110 1657893892
+!i10b 1
+!s100 VTf:fGXCCiJ[FiC3>;SU90
+R1
+IgdN0KoXd3gFElT2DJ^EDR3
+R2
+R3
+w1657854971
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\registerArray.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\registerArray.v
+!i122 106
+L0 4 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\registerArray.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\registerArray.v|
+!i113 1
+R6
+R7
+n@r@e@g@i@s@t@e@r_@a@r@r@a@y
+vtest_regs
+R13
+!i10b 1
+!s100 lkdVzjEQW[YghzTMdA0Jc0
+R1
+IWH@1zVM:WokmmiPB<XfA:1
+R2
+R3
+w1657893880
+8C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\test_regfile.v
+FC:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\test_regfile.v
+!i122 107
+L0 2 211
+R4
+r1
+!s85 0
+31
+!s108 1657893892.000000
+!s107 C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\test_regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\kaurj\Documents\CONESTOGA\ESD\Reconfigurable systems\Labs\FPGA-Design-Simulations\Simulation4-Regfile\Verilog\test_regfile.v|
+!i113 1
+R6
+R7
