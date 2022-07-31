@@ -1,0 +1,194 @@
+# Compile of cpu.vhd failed with 2 errors.
+# Compile of microcode_rom_example.vhd was successful.
+# Compile of mux.vhd failed with 3 errors.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# 5 compiles, 2 failed with 5 errors.
+# Compile of cpu.vhd was successful.
+# Compile of cpu.vhd was successful.
+# Compile of microcode_rom_example.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.test_cpu
+# vsim -gui work.test_cpu 
+# Start time: 19:19:14 on Jul 31,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_cpu(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# ** Warning: (vsim-3473) Component instance "REGFILE1 : REGFILE" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu/CPU1 File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/cpu.vhd
+# ** Warning: (vsim-3473) Component instance "ALU1 : ALU" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu/CPU1 File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/cpu.vhd
+# Loading work.ram(rtl)
+add wave -position insertpoint sim:/test_cpu/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu/RAM1
+# ** Failure: end of Simulation
+#    Time: 85 ps  Iteration: 1  Process: /test_cpu/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd line 120
+quit -sim
+# End time: 19:20:36 on Jul 31,2022, Elapsed time: 0:01:22
+# Errors: 1, Warnings: 11
+# Compile of cpu.vhd was successful.
+# Compile of microcode_rom_example.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.test_cpu
+# vsim -gui work.test_cpu 
+# Start time: 19:21:54 on Jul 31,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_cpu(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+add wave -position insertpoint sim:/test_cpu/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu/RAM1
+# ** Failure: end of Simulation
+#    Time: 85 ps  Iteration: 1  Process: /test_cpu/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd line 120
+quit -sim
+# End time: 19:23:51 on Jul 31,2022, Elapsed time: 0:01:57
+# Errors: 1, Warnings: 5
+# Compile of cpu.vhd was successful.
+# Compile of microcode_rom_example.vhd failed with 1 errors.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of microcode_rom_bitCounter.vhd was successful.
+# 15 compiles, 1 failed with 1 error.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of microcode_rom_bitCounter.vhd was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.test_cpu
+# vsim -gui work.test_cpu 
+# Start time: 19:28:46 on Jul 31,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_cpu(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+add wave -position insertpoint sim:/test_cpu/*
+add wave -position insertpoint  \
+sim:/test_cpu/CPU1/REGFILE1/REG_ARRAY0/regArray
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu/RAM1
+# ** Failure: end of Simulation
+#    Time: 85 ps  Iteration: 1  Process: /test_cpu/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd line 120
+# Break key hit
+clear
+# invalid command name "clear"
+cls
+# 
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of microcode_rom_bitCounter.vhd was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.test_cpu
+# End time: 19:31:58 on Jul 31,2022, Elapsed time: 0:03:12
+# Errors: 1, Warnings: 7
+# vsim -gui work.test_cpu 
+# Start time: 19:31:58 on Jul 31,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_cpu(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+add wave -position insertpoint sim:/test_cpu/*
+add wave -position insertpoint  \
+sim:/test_cpu/CPU1/REGFILE1/REG_ARRAY0/regArray
+add wave -position insertpoint sim:/test_cpu/CPU1/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu/RAM1
+# ** Failure: end of Simulation
+#    Time: 175 ps  Iteration: 1  Process: /test_cpu/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu.vhd line 165
