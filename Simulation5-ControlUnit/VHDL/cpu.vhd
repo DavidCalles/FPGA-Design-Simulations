@@ -171,7 +171,7 @@ begin
   MADDR  <= MAR;
   DATA_O <= FOUT;
   
-  -- External address mapping
+  -- External address mapping (Cahnged it for testing purposes)
   EXT_ADDR <= ("0" & IR(15 downto 9) & "000");
   
   -- Implement remaming synchronous parts
@@ -232,8 +232,8 @@ begin
   -- MUX1: Select if next address is internal or external
   with MUX1 select
     MUX1_OUT <= 
-      DATA(10 downto 0) when '0',
-      EXT_ADDR          when '1',  
+      DATA(10 downto 0)   when '0',
+      DATA_I(10 downto 0) when '1', --EXT_ADDR 
       (others => '0') when others;
 
   -- MUX2: Conditions to load new address.

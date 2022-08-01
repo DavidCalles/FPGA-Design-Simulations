@@ -7,25 +7,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity ALU
 -- Compiling architecture RTL of ALU
 
-} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/microcode_rom_bitCounter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/microcode_rom_bitCounter.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity MICROCODE_ROM
--- Compiling architecture RTL of MICROCODE_ROM
-
-} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/cpu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/cpu.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity CPU
--- Compiling architecture RTL of CPU
-
-} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/ram.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\yodav\OneDrive\Documents\Conestoga_College\FOURTH_TERM\ReconfigurableSystems\FPGA-Design-Simulations\Simulation5-ControlUnit\VHDL\ram.vhd}
+} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/ram.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -70,6 +52,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling package body common
 -- Loading package common
 
+} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/uasmExample/my_microcode.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/uasmExample/my_microcode.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MICROCODE_ROM
+-- Compiling architecture RTL of MICROCODE_ROM
+
 } {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -79,6 +70,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package common
 -- Compiling entity REGISTER_ARRAY
 -- Compiling architecture RTL of REGISTER_ARRAY
+
+} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu_full.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation5-ControlUnit/VHDL/test_cpu_full.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TEST_CPU_FULL
+-- Compiling architecture RTL of TEST_CPU_FULL
 
 } {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_Tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Bitwise_Tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -98,14 +98,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Adder_uint16
 -- Compiling architecture RTL of Adder_uint16
 
-} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Shifts
--- Compiling architecture RTL of Shifts
-
 } {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/mux.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -115,5 +107,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package common
 -- Compiling entity MUX
 -- Compiling architecture RTL of MUX
+
+} {} {}} C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation3-IntegerALU/VHDL/Shifts.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Shifts
+-- Compiling architecture RTL of Shifts
 
 } {} {}}
