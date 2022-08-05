@@ -27,6 +27,9 @@ module CPU(/*AUTOARG*/
    wire [15:0] 	 ABUS,BBUS,FOUT;
    wire 	 LDMAR,LDIR,RFMUX,DMUX;
 	    
+   wire [10:0] MUX1_OUT;
+   wire MUX2_OUT;
+
    /* Status flag registers, and wires */
    reg 		 Z,S,C,V;
    wire 	 ZOUT,SOUT,COUT,VOUT;
@@ -142,9 +145,33 @@ module CPU(/*AUTOARG*/
    /* Muxes */
    assign EXT_ADRS = {1'b0, IR[15:9], 3'b000};
 
-   /* Synchronous part */
+   always @ (posedge CLK or negedge RST or MUX2_OUT or MUX1_OUT)
+   begin
+      if (RST == 1'b0)
+         CAR <= 0;
+      else begin
+         if(MUX2_OUT == 1'b0) 
+            CAR <= CAR+1;  
+         else if(MUX2_OUT) 
+            CAR <= MUX1_OUT; 
+      end 
+   end   
 
-   /* Asynchronous part */
+assign MUX1_OUT = MUX1 == 1'b0 ? DATA[10:0] :
+                  MUX1 == 1'b1 ? DATA_I[10:0] : 1'b0;
+
+assign MUX2_OUT = MUX2 == 4'b0000 ? 1'b0 :
+                  MUX2 == 4'b0001 ? 1'b1 :
+                  MUX2 == 4'b0010 ? C : 
+                  MUX2 == 4'b0011 ? ~C :
+                  MUX2 == 4'b0100 ? Z :
+                  MUX2 == 4'b0101 ? ~Z :
+                  MUX2 == 4'b0110 ? S :
+                  MUX2 == 4'b0111 ? ~S :
+                  MUX2 == 4'b1000 ? V :
+                  MUX2 == 4'b1001 ? ~V :
+                  MUX2 == 4'b1010 ? S ^ V :
+                  MUX2 == 4'b1011 ? ~(S^V) : 1'b0;
    
 endmodule
 	 

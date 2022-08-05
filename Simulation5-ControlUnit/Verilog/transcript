@@ -1,0 +1,104 @@
+# Compile of cpu.v was successful.
+# Compile of test_cpu.v was successful.
+# Compile of test_full_cpu.v was successful.
+# Compile of mux.v was successful.
+# Compile of regfile.v was successful.
+# Compile of registerArray.v was successful.
+# Compile of test_regfile.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Bitwise.v was successful.
+# Compile of FullAdder.v was successful.
+# Compile of Shift.v was successful.
+# Compile of test_alu.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.TEST_CPU
+# vsim -gui work.TEST_CPU 
+# Start time: 09:44:34 on Aug 05,2022
+# Loading work.TEST_CPU
+# Loading work.CPU
+# Loading work.MICROCODE_ROM
+# Loading work.REGFILE
+# Loading work.REGISTER_ARRAY
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.Adder
+# Loading work.FullAdder
+# Loading work.Bitwise
+# Loading work.Shift
+# Loading work.RAM
+add wave -position insertpoint sim:/TEST_CPU/*
+run -all
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "ram.dat". Expected 256, found 2.    : C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/ram.v(34)
+#    Time: 0 ps  Iteration: 0  Instance: /TEST_CPU/RAM1
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 5 ps ###############
+#   Active process: /TEST_CPU/CPU1/#IMPLICIT-WIRE(CAR)#48 @ sub-iteration 0
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/test_cpu.v:31
+#   Active process: /TEST_CPU/CPU1/MICROCODE_ROM1/#ASSIGN#20 @ sub-iteration 1
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/cpu.v:47
+#   Active process: /TEST_CPU/CPU1/#IMPLICIT-WIRE(CAR)#48 @ sub-iteration 2
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/test_cpu.v:31
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ps.
+vsim work.TEST_CPU
+# End time: 09:45:33 on Aug 05,2022, Elapsed time: 0:00:59
+# Errors: 1, Warnings: 8
+# vsim work.TEST_CPU 
+# Start time: 09:45:33 on Aug 05,2022
+# Loading work.TEST_CPU
+# Loading work.CPU
+# Loading work.MICROCODE_ROM
+# Loading work.REGFILE
+# Loading work.REGISTER_ARRAY
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.Adder
+# Loading work.FullAdder
+# Loading work.Bitwise
+# Loading work.Shift
+# Loading work.RAM
+add wave -position insertpoint sim:/TEST_CPU/*
+run
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "ram.dat". Expected 256, found 2.    : C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/ram.v(34)
+#    Time: 0 ps  Iteration: 0  Instance: /TEST_CPU/RAM1
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 5 ps ###############
+#   Active process: /TEST_CPU/CPU1/#IMPLICIT-WIRE(CAR)#48 @ sub-iteration 0
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/test_cpu.v:31
+#   Active process: /TEST_CPU/CPU1/MICROCODE_ROM1/#ASSIGN#20 @ sub-iteration 1
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/cpu.v:47
+#   Active process: /TEST_CPU/CPU1/#IMPLICIT-WIRE(CAR)#48 @ sub-iteration 2
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/test_cpu.v:31
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ps.
+vsim work.TEST_CPU_FULL
+# End time: 09:46:07 on Aug 05,2022, Elapsed time: 0:00:34
+# Errors: 1, Warnings: 2
+# vsim work.TEST_CPU_FULL 
+# Start time: 09:46:07 on Aug 05,2022
+# Loading work.TEST_CPU_FULL
+# Loading work.CPU
+# Loading work.MICROCODE_ROM
+# Loading work.REGFILE
+# Loading work.REGISTER_ARRAY
+# Loading work.MUX
+# Loading work.ALU
+# Loading work.Adder
+# Loading work.FullAdder
+# Loading work.Bitwise
+# Loading work.Shift
+add wave -position insertpoint sim:/TEST_CPU_FULL/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 5 ps ###############
+#   Active process: /TEST_CPU_FULL/CPU1/#IMPLICIT-WIRE(CAR)#48 @ sub-iteration 0
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/test_full_cpu.v:36
+#   Active process: /TEST_CPU_FULL/CPU1/MICROCODE_ROM1/#ASSIGN#20 @ sub-iteration 1
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/cpu.v:47
+#   Active process: /TEST_CPU_FULL/CPU1/#IMPLICIT-WIRE(CAR)#48 @ sub-iteration 2
+#     Source: C:/Users/kaurj/Documents/CONESTOGA/ESD/Reconfigurable systems/Labs/FPGA-Design-Simulations/Simulation5-ControlUnit/Verilog/test_full_cpu.v:36
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ps.
+# End time: 09:57:19 on Aug 05,2022, Elapsed time: 0:11:12
+# Errors: 1, Warnings: 1

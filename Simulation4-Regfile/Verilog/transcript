@@ -1,7 +1,0 @@
-vsim -gui work.test_regs
-# vsim -gui work.test_regs 
-# Start time: 09:12:56 on Jul 22,2022
-# Loading work.test_regs
-# Loading work.REGFILE
-# Loading work.REGISTER_ARRAY
-# Loading work.MUX
