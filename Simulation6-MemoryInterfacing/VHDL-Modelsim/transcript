@@ -1,0 +1,1416 @@
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd failed with 12 errors.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# 18 compiles, 1 failed with 12 errors.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.test_cpu_full
+# vsim -gui work.test_cpu_full 
+# Start time: 20:49:54 on Aug 04,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# ** Warning: (vsim-3473) Component instance "MICROCODE_ROM1 : MICROCODE_ROM" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /test_cpu_full/CPU1 File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/cpu.vhd
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+add wave -position insertpoint sim:/test_cpu_full/*
+add wave -position insertpoint sim:/test_cpu_full/RAM1/*
+run -all
+# ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
+#    Time: 1 ps  Iteration: 1  Instance: /test_cpu_full/CPU1/REGFILE1/REG_ARRAY0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 1  Instance: /test_cpu_full/CPU1/REGFILE1/REG_ARRAY0
+# ** Fatal: (vsim-3734) Index value 0 is out of range 1 to 7.
+#    Time: 1 ps  Iteration: 1  Process: /test_cpu_full/CPU1/REGFILE1/REG_ARRAY0/line__28 File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd
+# Fatal error in Process line__28 at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd line 35
+# 
+# HDL call sequence:
+# Stopped at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation4-Regfile/VHDL/registerArray.vhd 35 Process line__28
+# 
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 41 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 148
+add wave -position insertpoint  \
+sim:/test_cpu_full/CPU1/REGFILE1/REG_ARRAY0/regArray
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 41 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 148
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 41 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 41 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 148
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 59 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 59 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 59 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 59 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 157
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 91 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 173
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 91 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 173
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 91 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 173
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 91 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 173
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 91 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 173
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 91 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 91 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 173
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 255 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 255
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd failed with 2 errors.
+# 19 compiles, 1 failed with 2 errors.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 365
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 255 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 255
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd failed with 1 errors.
+# 19 compiles, 1 failed with 1 error.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd failed with 1 errors.
+# 19 compiles, 1 failed with 1 error.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 255 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 255
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 255 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 255
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 255 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 255
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 255 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 255 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 255
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful with warnings.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd failed with 1 errors.
+# 19 compiles, 1 failed with 1 error.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 595 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 425
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 2 test cases
+#    Time: 1191 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 2 Test cases failed
+#    Time: 1191 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 1191 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 1191 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 425
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 8 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 1 test cases
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 1 Test cases failed
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 595 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 425
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# ** Note: Mismatch on FOUT expected 32767 got 100
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(32767);
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 604 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 2 test cases
+#    Time: 1191 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 2 Test cases failed
+#    Time: 1191 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 1191 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 1191 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 425
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_cpu_full(rtl)
+# Loading work.cpu(rtl)
+# Loading work.microcode_rom(rtl)
+# Loading work.common(body)
+# Loading work.regfile(rtl)
+# Loading work.mux(rtl)
+# Loading work.register_array(rtl)
+# Loading work.alu(rtl)
+# Loading work.adder_uint16(rtl)
+# Loading work.fulladder(rtl)
+# Loading work.bitwise_16bit(rtl)
+# Loading work.shifts(rtl)
+# Loading work.ram(rtl)
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 200 got 254
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(200);
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Mismatch on FOUT expected 201 got 0
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(201);
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Mismatch on FOUT expected 500 got 3283
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(500);
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 3 test cases
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 3 Test cases failed
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 595 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 428
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of cpu.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of test_cpu.vhd was successful.
+# Compile of test_cpu_full.vhd was successful.
+# Compile of Adder_uint16.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of ALU_Tb.vhd was successful.
+# Compile of Bitwise_16bit.vhd was successful.
+# Compile of Bitwise_Tb.vhd was successful.
+# Compile of FullAdder.vhd was successful.
+# Compile of Shifts.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# Compile of common.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of regfile_tb.vhd was successful.
+# Compile of registerArray.vhd was successful.
+# Compile of test_regfile.vhd was successful.
+# Compile of my_microcode2.vhd was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ps  Iteration: 2  Instance: /test_cpu_full/RAM1
+# ** Note: Mismatch on FOUT expected 200 got 254
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(200);
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 36 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Mismatch on FOUT expected 201 got 0
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(201);
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 72 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Mismatch on FOUT expected 500 got 3283
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: Failed test case was:
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: cpuop(500);
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: 
+#    Time: 126 ps  Iteration: 0  Instance: /test_cpu_full
+# ** Note: ----> Number of passed Test cases: 0 out of 3 test cases
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: FAIL: 3 Test cases failed
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Note: -----> Your mark SHOULD be: 100
+#    Time: 595 ps  Iteration: 1  Instance: /test_cpu_full
+# ** Failure: end of Simulation
+#    Time: 595 ps  Iteration: 1  Process: /test_cpu_full/testbench File: C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd
+# Break in Process testbench at C:/Users/yodav/OneDrive/Documents/Conestoga_College/FOURTH_TERM/ReconfigurableSystems/FPGA-Design-Simulations/Simulation6-MemoryInterfacing/VHDL/test_cpu_full.vhd line 428
